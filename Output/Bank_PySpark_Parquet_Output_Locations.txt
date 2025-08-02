@@ -1,0 +1,13 @@
+
+All output summaries are stored in Parquet format under the following directory in Databricks:
+
+/FileStore/tables/
+
+This includes:
+- spend_per_customer/
+- top_5_debit_customers/
+- monthly_emi_avg/
+- emi_user_count/
+- city_avg_txn/
+
+These files can be used for reporting, dashboards, or integration with BI tools.
